@@ -10,6 +10,13 @@ public class DayThreeTasks {
 
     public void taskOne() {
         int[][] table = new int[10][10];
+        for (int i = 1; i < 11; i++) {
+            for (int j = 1; j < 11; j++) {
+                table[i - 1][j - 1] = i * j;
+                System.out.print(table[i - 1][j - 1]);
+            }
+            System.out.println("");
+        }
 
 
     }
@@ -22,7 +29,6 @@ public class DayThreeTasks {
         }
         return arr;
     }
-
 
 
 }

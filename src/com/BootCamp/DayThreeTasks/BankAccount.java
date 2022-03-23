@@ -57,7 +57,6 @@ public class BankAccount {
         }
     }
 
-
     public void transferALLBalance(BankAccount account) {
         account.deposit(balance);
         withdraw(balance);
