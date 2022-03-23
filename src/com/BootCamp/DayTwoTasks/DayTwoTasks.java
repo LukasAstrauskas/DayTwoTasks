@@ -1,4 +1,4 @@
-package com.BootCamp;
+package com.BootCamp.DayTwoTasks;
 
 public class DayTwoTasks {
     public String taskOne(int a, int b) {
