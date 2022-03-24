@@ -1,13 +1,12 @@
 package com.BootCamp;
 
-import com.BootCamp.DayThreeTasks.DayThreeTasks;
+import com.BootCamp.DayThreeTasks.DayThreeTasksOneAndTwo;
 
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        DayThreeTasks dTT = new DayThreeTasks();
-       dTT.taskOne();
+
 
 
     }

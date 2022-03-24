@@ -1,9 +1,9 @@
 package com.BootCamp.DayThreeTasks.TaskFive;
 
 public class Vehicle {
-    private String name;
-    private int mass;
-    private int yearProduced;
+    private final String name;
+    private final int mass;
+    private final int yearProduced;
     private int speed;
 
     public Vehicle(String name, int mass, int yearProduced, int speed) {

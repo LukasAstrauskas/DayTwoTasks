@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class DayThreeTasks {
+public class DayThreeTasksOneAndTwo {
 
     public void taskOne() {
         int[][] table = new int[10][10];

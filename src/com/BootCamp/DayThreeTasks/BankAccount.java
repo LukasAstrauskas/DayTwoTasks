@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 public class BankAccount {
 
     private BigDecimal balance;
+    private final BigDecimal maxAmount = new BigDecimal(5000);
 
     public BankAccount() {
     }
@@ -19,7 +20,6 @@ public class BankAccount {
 
     public String deposit(BigDecimal amount) {
         BigDecimal bD = new BigDecimal(0);
-        BigDecimal maxAmount = new BigDecimal(5000);
         if (amount.compareTo(bD) < 0) {
             return "Should be positive value.";
         } else if (amount.compareTo(maxAmount) > 0) {
@@ -46,7 +46,7 @@ public class BankAccount {
         System.out.println("Ballance: " + balance);
     }
 
-    public String transfer(BankAccount account, BigDecimal amount) {
+    public String transfer( BankAccount account, BigDecimal amount) {
         if (amount.compareTo(balance) > 0) {
             return "Transfer cancelled. You are trying to transfer " +
                     amount + " units, but only " + balance + " are available.";
